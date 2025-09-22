@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #0a0eee;
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #e9e9e9;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #007BFF;
+}
+
+.code-block {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.code-block h3 {
+    margin-top: 0;
+}
+
+pre {
+    background: #fdfdfd;
+    padding: 10px;
+    border-radius: 3px;
+    overflow-x: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+.nav{
+    color: red;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Interview Cheat Sheet</h1>
+        <nav>
+         <button><a href="#company-research">Company Research</a></button>
+         <button><a href="#behavioral-questions">Behavioral Questions</a></button>
+         <button><a href="#technical-questions">Technical Questions</a></button>
+        <button><a href="#questions-to-ask">Questions to Ask</a></button>
+        </nav>
+    </header>
+
+    <main>
+        <div id="company-research">
+            <h2>1. Company Research</h2>
+            <p>Before any interview, it's crucial to research the company. This shows genuine interest and helps you tailor your answers.</p>
+            <ul>
+                <li><strong>Mission & Values:</strong> What drives the company?</li>
+                <li><strong>Recent News:</strong> Any new products, funding, or major announcements?</li>
+                <li><strong>The Team:</strong> Who are the key people you'll be meeting?</li>
+            </ul>
+        </div>
+
+        <div id="behavioral-questions">
+            <h2>2. Behavioral Questions</h2>
+            <p>These questions assess your past behavior to predict future performance. Use the <strong>STAR method</strong> (Situation, Task, Action, Result).</p>
+            <ul>
+                <li><strong>Tell me about a time you failed.</strong></li>
+                <li><strong>Describe a challenging project you worked on.</strong></li>
+                <li><strong>How do you handle conflict with a coworker?</strong></li>
+            </ul>
+        </div>
+
+        <div id="technical-questions">
+            <h2>3. Technical Questions</h2>
+            <p>Specific to the role, these questions test your knowledge and problem-solving skills.</p>
+            <div class="code-block">
+                <h3>HTML & CSS</h3>
+                <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+                </code></pre>
+            </div>
+            <div class="code-block">
+                <h3>JavaScript</h3>
+                <pre><code>function greet(name) {
+  return Hello, ${name}!;
+}
+console.log(greet("Interviewer"));
+                </code></pre>
+            </div>
+        </div>
+
+        <div id="questions-to-ask">
+            <h2>4. Questions to Ask the Interviewer</h2>
+            <p>Asking thoughtful questions shows you're engaged and serious about the opportunity. Always have a few ready.</p>
+            <ul>
+                <li>What does a typical day look like in this role?</li>
+                <li>What are the team's biggest challenges right now?</li>
+                <li>How is success measured in this position?</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Interview Prep Guide. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
