@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css document</title>
+    <style>
+        p{
+            color:blue;
+            background-color: aqua;
+        }
+        dl dt{
+            color: brown;
+        }
+        dl dd{
+            color:blueviolet
+        }
+    </style>
+</head>
+<body>
+    <p>css is 3 types</p>
+    <dl>
+        <dt>external css</dt>
+        <dd>connect 2 files css,html using link rel</dd>
+        <dt>internal</dt>
+        <dd>it can connect in single file by using style tag</dd>
+        <dt>internal css</dt>
+        <dd>we can give directly by using by style in any tag</dd>
+    </dl>
+</body>
+</html>
