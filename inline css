@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css document</title>
+</head>
+<body>
+    <p style="color: rgb(237, 59, 15);">css is 3 types</p>
+    <ul>
+        <li style="color: aqua;background-color: blue;">tf</li>
+        <li style="background-color: brown;color: aqua;">au</li>
+    </ul>
+</body>
+</html>
