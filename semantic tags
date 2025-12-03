@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Program</title>
+    <style>
+    .aishu{
+        color: blue;
+        align-content: center;
+    }
+    #ammu{
+        color: brown;
+        align-content: center;
+    }
+    h1{
+        color:rgb(254, 16, 36);
+        align-content: center;
+    }
+    .news{
+        color: rgb(250, 9, 21);
+        text-align:justify;
+    }
+    button{
+        color: black;
+        background-color: aqua;
+        box-decoration-break: unset;
+    }
+    *{
+        background-image: initial;
+    }
+    #sample{
+        color: blueviolet;
+    }
+    </style>
+</head>
+<body>
+    <div>
+    <header>
+    <h1>First Sample Program</h1>
+    </header>
+    </div>
+    <div class="aishu">
+        <h2>A section using semantic tags</h2>
+    </div>
+    <div id="ammu">
+        <nav>
+        <button><a href="reg.html">HOME</a></button>
+        <button><a href="hgt65rf.html">LOGIN</a></button>
+        <button><a href="siva.html">FAV GOD</a></button>
+        </nav>
+    </div>
+    <section id="sample2">
+        <article>
+            <div class="news">
+            <p>Dhoni will play IPL 2026 in CSK
+            They would also be worried that they are stumbling at the business end of the tournament, now having lost two in a row. And they will be even more worried that one of the successful top 3 trio, Jos Buttler not being available for the playoffs. The day began with CSK winning the toss and choosing to bat first. 
+            </div>
+        </article>
+    </section>
+    <section id="sample">
+        <footer>&lt;&copy;aishu&gt;</footer>
+    </section>
+</body>
+</html>
