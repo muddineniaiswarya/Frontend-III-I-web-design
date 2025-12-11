@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2" align="center">
+        <tr>
+            <td colspan="4" align="center"><b>List</b></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><b>Pros</b></td>
+            <td colspan="2" align="center"><b>Cons</b></td>
+        </tr>
+        <tr>
+            <td rowspan="3">Pro1</td>
+            <td></td>
+            <td>con1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Subpro1</td>
+            <td rowspan="4">Con2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Subpro2</td>
+            <td>Subcon1</td>
+        </tr>
+        <tr>
+            <td>pro2</td>
+            <td></td>
+            <td>Subcon2</td>
+        </tr>
+        <tr>
+            <td>Pro3</td>
+            <td></td>
+            <td>Subcon3</td>
+        </tr>
+        <tr>
+            <td rowspan="3"></td>
+            <td rowspan="3"></td>
+            <td rowspan="3">Con3</td>
+            <td> &nbsp;</td>
+        </tr>
+        <tr>
+            <td>subcon1</td>
+        </tr>
+        <tr>
+            <td>subcon2</td>
+        </tr>
+    </table>
+</body>
+</html>
