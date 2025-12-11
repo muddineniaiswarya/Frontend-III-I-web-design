@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th{
+            color: blueviolet;
+            background-color: rgb(168, 235, 101);
+        }
+        td{
+            color: blueviolet;
+            background-color: cornsilk;
+        }
+    </style>
+</head>
+<body>
+    <table border="3" align="center">
+        <tr>
+        <th colspan="6" align="center"> TIME TABLE</th>
+        </tr>
+        <tr>
+            <td rowspan="6"> Hours</td>
+            <td  align="center"><b>mon</b></td>
+            <td  align="center"><b>tue</b></td>
+            <td  align="center"><b>wed</b></td>
+            <td  align="center"><b>thurs</b></td>
+            <td align="center"><b>fri</b></td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+             <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td colspan="5" align="center">Lunch Break</td>
+           </tr>
+           <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td rowspan="2">Project</td>
+           </tr>
+           <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            </tr>
+    </table>
+    
+</body>
+</html>
