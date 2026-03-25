@@ -1,0 +1,82 @@
+//code for body
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="pro.css">
+</head>
+<body align="center">
+    <h2>Javascript Event Mini project</h2>
+    <div id="a">
+        <button id="btn1"><i>Click Me</i></button>
+        <button onclick="console.log('removed (X)')" id="btn2"><i>Remove Event</i></button>
+        <button id="btn3"><i>Change Mode</i></button>
+        <br><br><br>
+    <div id="b"><i>Move Mouse Here</i></div>
+</div>
+</body>
+<script src="pro.js"></script>
+</html>
+//styleing properties of css
+h2{
+    color: brown;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-style: oblique;
+}
+#a{
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    border: 2px solid blue;
+    padding: 50px;
+    border-radius: 10%;
+    font-display: block;
+}
+#b{
+    height: 100px;
+    width: 295px;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 50px;
+    color: red;
+    font-size: x-large;    
+    border-radius: 5%; 
+    background-color: bisque;
+}
+button{
+    color: blue;
+    background-color: aqua;
+    margin: 3px;
+}
+//functioning using javascript
+let btn1=document.querySelector("#btn1");
+let btn=document.getElementsByClassName("#btn1");
+btn1.addEventListener("click",(evt)=>{
+    console.log("button was clicked");
+    console.log(evt.type);
+    console.log(btn1);
+});
+ 
+const handler=()=>{
+      console.log("removed");
+};
+btn2.removeEventListener("click",handler);
+let modebtn=document.querySelector("#btn3");
+let currmode="light";
+modebtn.addEventListener("click",()=>{
+    if(currmode==="light"){
+        currmode="dark"
+        document.querySelector("div").style.backgroundColor="black"
+    }
+    else{
+        currmode="light";
+        document.querySelector("div").style.backgroundColor="white"
+    }
+    console.log(currmode)
+});
+let b=document.querySelector("#b");
+b.onmouseover=()=>{
+    console.log("mouse moved here");
+}
